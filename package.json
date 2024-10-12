@@ -1,0 +1,34 @@
+{
+  "name": "vite-react-core",
+  "author": {
+    "name": "Habib Hassan",
+    "email": "otakus3nnin@gmail.com"
+  },
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^3.1.0",
+    "splitting": "^1.0.6",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.19",
+    "@studio-freight/react-lenis": "^0.0.26",
+    "@studio-lumio/hooks": "^0.1.25",
+    "clsx": "^2.0.0",
+    "gsap": "^3.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "sass": "^1.65.1",
+    "vite-plugin-svgr": "^3.2.0",
+    "zustand": "^4.4.1"
+  }
+}

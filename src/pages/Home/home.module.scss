@@ -1,0 +1,19 @@
+@use "@/styles/abstracts";
+
+.content {
+  @extend %page;
+  height: 300vh;
+  @extend %container;
+
+  .push {
+    height: 100vh;
+  }
+  .flex {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+  }
+}
